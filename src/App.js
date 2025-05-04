@@ -1,19 +1,15 @@
-import React, {Component} from 'react';
-import Form from "../src/components/loginForm";
-class App extends Component{
-  
-  constructor(props){
-    super(props);
-  };
+import { Link } from "react-router";
+import AppRoutes from './routes';
 
-  render(){
-    return(
-      <div>
-        <Form/>
-      </div>
-    );
-  }
+export default function App() {
+  return (
+    <div>
+      <nav>
+        <Link to="/">Login</Link> |{" "}
+        <Link to="/cadastro">CADASTRO</Link>
+      </nav>
 
+      <AppRoutes />
+    </div>
+  );
 }
-
-export default App;
