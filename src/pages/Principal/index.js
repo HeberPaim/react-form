@@ -30,8 +30,8 @@ class Principal extends Component {
 
   render() {
     return (
-      <div>
-        <h1>Página Principal</h1>
+      <div className="page-container">
+        <h1>Dados de cadastro</h1>
         <p>Nome: {this.state.nome}</p>
         <p>Sobrenome: {this.state.sobrenome}</p>
         <p>Data de Nascimento: {this.state.nascimento}</p>

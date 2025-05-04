@@ -27,7 +27,7 @@ class Login extends Component{
 
   render(){
     return(
-      <div>
+      <div className="page-container">
       <h1>Login</h1>
       <input
         type="email"

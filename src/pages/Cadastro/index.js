@@ -44,8 +44,8 @@ class Cadastro extends Component{
 
   render(){
     return(
-      <div>
-        <h1>Página de Cadastro</h1>
+      <div className="page-container">
+        <h1>Cadastro</h1>
         <input type ="email" placeholder='E-mail' onChange={(e) => this.setState({email: e.target.value})}/>
         <input type ="password" placeholder='Senha' onChange={(e) => this.setState({senha: e.target.value})}/>
         <input type ="text" placeholder='Nome' onChange={(e) => this.setState({nome: e.target.value})}/>
